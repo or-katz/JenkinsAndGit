@@ -17,7 +17,7 @@ pipeline {
                 sh 'ls'
             }
         }
-        stage('run_python script') {
+        stage('run python script') {
             steps {
                 python3 main.py
             }
